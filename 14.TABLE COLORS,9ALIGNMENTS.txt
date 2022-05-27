@@ -1,0 +1,99 @@
+<html>
+    <title>TABLE COLORS AND NINE ALIGNMENS</title>
+    <body>
+        <h1><center><font color="red">TABLE HEAD AND FOOTER</font></center></h1>
+        <h3>The (tfoot) tag is used to group footer content in an HTML table. The (tfoot) element is used in 
+            conjunction with the (thead) and (tbody) elements to specify each part of a table 
+                (footer, header, body). Browsers can use these elements to enable scrolling of the 
+                table body independently of the header and footer.</h3>
+        <h2><font color="green">EXAMPLE:</font></h2>
+        <h3>Herethe header code is write in at the bottom and footer code is wrtten at start but when we use
+            thead and tfoot tag then the code that written in the thead comes top and code written at between the 
+            tfoot comes at bottom of the table
+        </h3>
+        <table border="1" align="CENTER" >
+            <tfoot><tr>
+                <td colspan="4">THE END</tr>
+           </tr></tfoot>
+            <tr >
+                <th colspan="2">STUDENT DATA</th><th colspan="2">EMPLOYEE DATA</th>
+            </tr>
+            <tr>
+                <th>NAME</th><th>CLASS</th><th>NAME</th><th>SALARY</th>
+            </tr>
+            <tr >
+                <td>RAVI</td><td>IX</td><td>SRINIVAS RAO</td><td rowspan="2">20,000</td>
+            </tr>
+            
+            <tr>
+                <td>GANESH</td><td rowspan="2">VII</td><td>RAMA RAO</td>
+            </tr>
+            <tr>
+                <td>vijay</td><td>CHALAPATHIRAO</td><td>18,500</td>
+            </tr>
+            <thead>
+                <tr>
+                    <th colspan="4">STUDENT & EMPLOYEE DATA LIST</th>
+                </tr>
+                </thead>
+            </table><hr><hr>
+
+            <h1><center><font color="red">"9" ALIGNMENS</font></center></h1>
+            <h3> valign and align are empty tags thease are used to place the text into corner of the cell
+                <li>Align means horizontal alignment = left center right.</li> 
+            <li>Valign means vertical alignment= top middle bottom.</li></h3>
+            <h2><font color="green">EXAMPLE:</font></h2>
+            <table border="1" align="CENTER" width="400" height="300">
+                <tr align="center" valign="top">
+                    <th colspan="4">STUDENT & EMPLOYEE DATA LIST</th>
+                </tr>
+                <tr align="left" valign="top">
+                    <th colspan="2">STUDENT DATA</th><th colspan="2">EMPLOYEE DATA</th>
+                </tr>
+                <tr align="right" valign="middle">
+                    <th>NAME</th><th>CLASS</th><th>NAME</th><th>SALARY</th>
+                </tr>
+                <tr align="left" valign="bottom">
+                    <td>RAVI</td><td>IX</td><td>SRINIVAS RAO</td><td rowspan="2">20,000</td>
+                </tr>
+                <tr align="center" valign="top">
+                    <td>GANESH</td><td rowspan="2">VII</td><td>RAMA RAO</td>
+                </tr>
+                <tr align="right" valign="middle">
+                    <td>vijay</td><td>CHALAPATHIRAO</td><td>18,500</td>
+                </tr>
+                </table>
+                <hr><hr>
+                <h1><center><font color="red">TABLE COLORS</font></center></h1>
+                <h3><li>By using bordercolor attribute we can change th border color of the table(bordercolor="color name")</li>
+                    <li>By using the bgcolor attribute we can change the background color of the table(bbg color="color name")</li>
+                    <li>we can also change the color of the entire row/column or single cell by using bg coolor attribute in 
+                        particular column tag(td)
+                    </li>
+                </h3>
+                <h2><font color="green">EXAMPLE:</font></h2>
+                <table border="1" align="CENTER" bgcolor="yellow" bordercolor="blue">
+                    <tr>
+                        <th colspan="4">STUDENT & EMPLOYEE DATA LIST</th>
+                    </tr>
+                    <tr bgcolor="red">
+                        <th colspan="2">STUDENT DATA</th><th colspan="2">EMPLOYEE DATA</th>
+                    </tr>
+                    <tr>
+                        <th>NAME</th><th>CLASS</th><th>NAME</th><th>SALARY</th>
+                    </tr>
+                    <tr bgcolor="red">
+                        <td>RAVI</td><td>IX</td><td>SRINIVAS RAO</td><td bgcolor="white" rowspan="2">20,000</td>
+                    </tr>
+                    <tr>
+                        <td>GANESH</td><td rowspan="2">VII</td><td>RAMA RAO</td>
+                    </tr>
+                    <tr bgcolor="red">
+                        <td>vijay</td><td>CHALAPATHIRAO</td><td>18,500</td>
+                    </tr>
+                    </table>
+                    
+                    
+
+    </body>
+</html>
